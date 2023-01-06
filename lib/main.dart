@@ -33,7 +33,23 @@ void main() {
                 size: 20,
               )
             ],
-          )
+          ),
+          Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+            Text('Btech in CSE , TKM College of Engineering',
+                style: TextStyle(fontSize: 12, color: Colors.black87)),
+          ]),
+          Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+            IconButton(
+                onPressed: (() {}), icon: Icon(Icons.access_alarm_outlined)),
+            IconButton(
+                onPressed: (() {}), icon: Icon(Icons.access_alarm_rounded)),
+            IconButton(
+                onPressed: (() {}), icon: Icon(Icons.access_alarm_outlined)),
+            IconButton(
+                onPressed: (() {}), icon: Icon(Icons.access_alarm_outlined)),
+            IconButton(
+                onPressed: (() {}), icon: Icon(Icons.access_alarm_outlined)),
+          ]),
         ],
       ),
     ),
