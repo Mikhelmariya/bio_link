@@ -54,6 +54,30 @@ void main() {
             decoration: BoxDecoration(
               color: Color.fromARGB(255, 55, 61, 55),
               borderRadius: BorderRadius.all(Radius.circular(200)),
+              border: Border.all(
+                  color: Color.fromARGB(255, 141, 207, 66), width: 5),
+            ),
+            width: 300,
+            height: 40,
+          ),
+          Spacer(),
+          Container(
+            decoration: BoxDecoration(
+              color: Color.fromARGB(255, 55, 61, 55),
+              borderRadius: BorderRadius.all(Radius.circular(200)),
+              border: Border.all(
+                  color: Color.fromARGB(255, 141, 207, 66), width: 5),
+            ),
+            width: 300,
+            height: 40,
+          ),
+          Spacer(),
+          Container(
+            decoration: BoxDecoration(
+              color: Color.fromARGB(255, 55, 61, 55),
+              borderRadius: BorderRadius.all(Radius.circular(200)),
+              border: Border.all(
+                  color: Color.fromARGB(255, 141, 207, 66), width: 5),
             ),
             width: 300,
             height: 40,
@@ -62,22 +86,8 @@ void main() {
           Container(
             decoration: BoxDecoration(
                 color: Color.fromARGB(255, 55, 61, 55),
-                borderRadius: BorderRadius.all(Radius.circular(200))),
-            width: 300,
-            height: 40,
-          ),
-          Spacer(),
-          Container(
-            decoration: BoxDecoration(
-                color: Color.fromARGB(255, 55, 61, 55),
-                borderRadius: BorderRadius.all(Radius.circular(200))),
-            width: 300,
-            height: 40,
-          ),
-          Spacer(),
-          Container(
-            decoration: BoxDecoration(
-                color: Color.fromARGB(255, 55, 61, 55),
+                border: Border.all(
+                    color: Color.fromARGB(255, 141, 207, 66), width: 5),
                 borderRadius: BorderRadius.all(Radius.circular(200))),
             width: 300,
             height: 40,
@@ -89,8 +99,11 @@ void main() {
               },
               child: Container(
                 decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 32, 42, 32),
-                    borderRadius: BorderRadius.all(Radius.circular(200))),
+                  color: Color.fromARGB(255, 32, 42, 32),
+                  borderRadius: BorderRadius.all(Radius.circular(200)),
+                  border: Border.all(
+                      color: Color.fromARGB(255, 141, 207, 66), width: 5),
+                ),
                 width: 300,
                 height: 40,
               )),
