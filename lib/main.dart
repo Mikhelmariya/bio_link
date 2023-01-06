@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MaterialApp(
       home: Scaffold(
-    backgroundColor: Color.fromARGB(255, 228, 244, 236),
+    backgroundColor: Colors.white,
     body: Center(
       child: Column(
         children: [
@@ -52,45 +52,48 @@ void main() {
           ]),
           Container(
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 55, 61, 55),
+              color: Colors.white,
               borderRadius: BorderRadius.all(Radius.circular(200)),
-              border: Border.all(
-                  color: Color.fromARGB(255, 141, 207, 66), width: 5),
+              border: Border.all(color: Colors.black, width: 5),
             ),
             width: 300,
-            height: 40,
+            height: 55,
+            child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+              Icon(Icons.abc_rounded),
+              Spacer(),
+              Text('Linkedln',
+                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
+              Spacer(),
+            ]),
           ),
           Spacer(),
           Container(
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 55, 61, 55),
+              color: Colors.white,
               borderRadius: BorderRadius.all(Radius.circular(200)),
-              border: Border.all(
-                  color: Color.fromARGB(255, 141, 207, 66), width: 5),
+              border: Border.all(color: Colors.black, width: 5),
             ),
             width: 300,
-            height: 40,
+            height: 55,
           ),
           Spacer(),
           Container(
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 55, 61, 55),
+              color: Colors.white,
               borderRadius: BorderRadius.all(Radius.circular(200)),
-              border: Border.all(
-                  color: Color.fromARGB(255, 141, 207, 66), width: 5),
+              border: Border.all(color: Colors.black, width: 5),
             ),
             width: 300,
-            height: 40,
+            height: 55,
           ),
           Spacer(),
           Container(
             decoration: BoxDecoration(
-                color: Color.fromARGB(255, 55, 61, 55),
-                border: Border.all(
-                    color: Color.fromARGB(255, 141, 207, 66), width: 5),
+                color: Colors.white,
+                border: Border.all(color: Colors.black, width: 5),
                 borderRadius: BorderRadius.all(Radius.circular(200))),
             width: 300,
-            height: 40,
+            height: 55,
           ),
           Spacer(),
           GestureDetector(
@@ -99,13 +102,12 @@ void main() {
               },
               child: Container(
                 decoration: BoxDecoration(
-                  color: Color.fromARGB(255, 32, 42, 32),
+                  color: Colors.white,
                   borderRadius: BorderRadius.all(Radius.circular(200)),
-                  border: Border.all(
-                      color: Color.fromARGB(255, 141, 207, 66), width: 5),
+                  border: Border.all(color: Colors.black, width: 5),
                 ),
                 width: 300,
-                height: 40,
+                height: 55,
               )),
         ],
       ),
