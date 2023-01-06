@@ -58,6 +58,7 @@ void main() {
             width: 300,
             height: 40,
           ),
+          Spacer(),
           Container(
             decoration: BoxDecoration(
                 color: Color.fromARGB(255, 55, 61, 55),
@@ -65,6 +66,7 @@ void main() {
             width: 300,
             height: 40,
           ),
+          Spacer(),
           Container(
             decoration: BoxDecoration(
                 color: Color.fromARGB(255, 55, 61, 55),
@@ -72,6 +74,7 @@ void main() {
             width: 300,
             height: 40,
           ),
+          Spacer(),
           Container(
             decoration: BoxDecoration(
                 color: Color.fromARGB(255, 55, 61, 55),
@@ -79,13 +82,18 @@ void main() {
             width: 300,
             height: 40,
           ),
-          Container(
-            decoration: BoxDecoration(
-                color: Color.fromARGB(255, 32, 42, 32),
-                borderRadius: BorderRadius.all(Radius.circular(200))),
-            width: 300,
-            height: 40,
-          ),
+          Spacer(),
+          GestureDetector(
+              onTap: () {
+                print('Button clicked');
+              },
+              child: Container(
+                decoration: BoxDecoration(
+                    color: Color.fromARGB(255, 32, 42, 32),
+                    borderRadius: BorderRadius.all(Radius.circular(200))),
+                width: 300,
+                height: 40,
+              )),
         ],
       ),
     ),
