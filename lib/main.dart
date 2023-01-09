@@ -50,6 +50,30 @@ void main() {
             IconButton(
                 onPressed: (() {}), icon: Icon(Icons.access_alarm_outlined)),
           ]),
+          GestureDetector(
+            onTap: (() {
+              print('Gesture detector onTap called');
+            }),
+            child: Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.all(Radius.circular(200)),
+                border: Border.all(color: Colors.black, width: 5),
+              ),
+              width: 300,
+              height: 55,
+              child:
+                  Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                Icon(Icons.abc_rounded),
+                Spacer(),
+                Text('Linkedln',
+                    style:
+                        TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
+                Spacer(),
+              ]),
+            ),
+          ),
+          Spacer(),
           Container(
             decoration: BoxDecoration(
               color: Colors.white,
@@ -61,7 +85,7 @@ void main() {
             child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
               Icon(Icons.abc_rounded),
               Spacer(),
-              Text('Linkedln',
+              Text('Discord',
                   style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
               Spacer(),
             ]),
@@ -75,16 +99,13 @@ void main() {
             ),
             width: 300,
             height: 55,
-          ),
-          Spacer(),
-          Container(
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.all(Radius.circular(200)),
-              border: Border.all(color: Colors.black, width: 5),
-            ),
-            width: 300,
-            height: 55,
+            child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+              Icon(Icons.abc_rounded),
+              Spacer(),
+              Text('Chatbot',
+                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
+              Spacer(),
+            ]),
           ),
           Spacer(),
           Container(
@@ -94,6 +115,13 @@ void main() {
                 borderRadius: BorderRadius.all(Radius.circular(200))),
             width: 300,
             height: 55,
+            child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+              Icon(Icons.abc_rounded),
+              Spacer(),
+              Text('Instagram',
+                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
+              Spacer(),
+            ]),
           ),
           Spacer(),
           GestureDetector(
@@ -108,6 +136,15 @@ void main() {
                 ),
                 width: 300,
                 height: 55,
+                child:
+                    Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                  Icon(Icons.abc_rounded),
+                  Spacer(),
+                  Text('Twitter',
+                      style:
+                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
+                  Spacer(),
+                ]),
               )),
         ],
       ),
