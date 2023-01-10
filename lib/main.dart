@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -10,6 +12,11 @@ Future<void> _launchUrl(String url) async {
 }
 
 void main() {
+  List<SocialIcons> socialicons = [
+    SocialIcons(icon: "", url: ""),
+    SocialIcons(icon: "", url: ""),
+    SocialIcons(icon: "", url: ""),
+  ];
   runApp(MaterialApp(
       home: Scaffold(
     backgroundColor: Colors.white,
@@ -45,16 +52,17 @@ void main() {
                 style: TextStyle(fontSize: 12, color: Colors.black87)),
           ]),
           Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+            //IconButton(
+            //onPressed: (() {
+            //  _launchUrl("twitter.com/@mikhela65");
+            //}),
+            //  icon: ImageIcon(AssetImage("images/twitter.png"))),
             IconButton(
-                onPressed: (() {}), icon: Icon(Icons.access_alarm_outlined)),
+                onPressed: (() {}),
+                icon: ImageIcon(AssetImage('images/instagram.png'))),
             IconButton(
-                onPressed: (() {}), icon: Icon(Icons.access_alarm_rounded)),
-            IconButton(
-                onPressed: (() {}), icon: Icon(Icons.access_alarm_outlined)),
-            IconButton(
-                onPressed: (() {}), icon: Icon(Icons.access_alarm_outlined)),
-            IconButton(
-                onPressed: (() {}), icon: Icon(Icons.access_alarm_outlined)),
+                onPressed: (() {}),
+                icon: ImageIcon(AssetImage("images/git.png"))),
           ]),
           GestureDetector(
             onTap: (() {
@@ -184,4 +192,10 @@ void main() {
       ),
     ),
   )));
+}
+
+class SocialIcons {
+  SocialIcons({required this.icon, required this.url});
+  final String icon;
+  final String url;
 }
