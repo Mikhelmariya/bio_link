@@ -229,22 +229,26 @@ class Mycards {
 List<Mycards> mycards = [
   Mycards(
       icon: "images/twitter.png",
-      text: "Linkedln",
-      url: "https://www.linkedin.com/in/mikhel-v-kuttickal-24b760218"),
+      text: "Resume",
+      url:
+          "https://drive.google.com/file/d/12ZwyIWKRlvMUelpmNFFAEBejm68doVG2/view?usp=sharing"),
   Mycards(
       icon: "images/twitter.png",
       text: "Linkedln",
       url: "https://www.linkedin.com/in/mikhel-v-kuttickal-24b760218"),
   Mycards(
       icon: "images/twitter.png",
-      text: "Linkedln",
-      url: "https://www.linkedin.com/in/mikhel-v-kuttickal-24b760218"),
+      text: "Certificates",
+      url:
+          "https://drive.google.com/drive/folders/1czcNym8iitFCq5JzP2iDogL1yrl3pCcl?usp=sharing"),
   Mycards(
       icon: "images/twitter.png",
-      text: "Linkedln",
-      url: "https://www.linkedin.com/in/mikhel-v-kuttickal-24b760218"),
+      text: "NLP Thesis",
+      url:
+          "https://drive.google.com/drive/folders/1y_AX7O4ZZTtdF8KEvgb-Rnmo6t_6RJbW?usp=sharing"),
   Mycards(
       icon: "images/twitter.png",
-      text: "Linkedln",
-      url: "https://www.linkedin.com/in/mikhel-v-kuttickal-24b760218"),
+      text: "Computer Vision",
+      url:
+          "https://drive.google.com/file/d/1Jy78naf1OQqmSi40iMR8aDifNHzL5RLO/view?usp=sharing"),
 ];
